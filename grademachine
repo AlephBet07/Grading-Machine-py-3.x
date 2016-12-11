@@ -1,0 +1,16 @@
+qrite = int(input("How many questions did this student get right?"))
+qtotal = int(input("How many questions were there in total?"))
+grade = qrite / qtotal * 100
+def pro():
+    if grade >= 90:
+        print("This student has gotten a " + str(grade) + ", which is an A.")
+    elif grade >= 80:
+        print("This student has gotten a " + str(grade) + ", which is a B.")
+    elif grade >= 70:
+        print("This student has gotten a " + str(grade) + ", which is a C.")
+    elif grade >= 60:
+        print("This student has gotten a " + str(grade) + ", which is a D.")
+    else:
+        print("This student has gotten a " + str(grade) + ", which is an F.")
+pro()
+input("Press enter.")
